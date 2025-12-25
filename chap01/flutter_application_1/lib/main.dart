@@ -104,7 +104,9 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const Text('You have pushed the button this many times:'),
+            const Text(
+              'You have pushed the button this many times:\n당신은 +버튼을 다음 횟수만큼 클릭했습니다.',
+            ),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
